@@ -28,5 +28,18 @@ namespace InventoryManagementSystem
             }
 
         }
+        public Product FindProduct(string name)
+        {
+            foreach (Product p in products) {
+                if (p.Name.Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    return p;
+                }
+            }
+            return null;
+        }
+
+
+
     }
 }

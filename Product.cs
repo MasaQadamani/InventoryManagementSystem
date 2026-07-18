@@ -6,22 +6,38 @@ namespace InventoryManagementSystem
 {
     internal class Product
     {
-        public string Name { get; set; }
+        private string name;
+        private double price;
+        private int quantity;
 
-        public double Price { get; set; }
-        public int Quantity { get; set; }
-
-        public Product( string name, double price, int quantity)
+        public string Name
         {
-            this.Name= name;
-            this.Price = price;
-            this.Quantity = quantity;
+            get { return name; }
+            set { name = value; }
+        }
+
+        public double Price
+        {
+            get { return price; }
+            set { price = value; }
+        }
+
+        public int Quantity
+        {
+            get { return quantity; }
+            set { quantity = value; }
+        }
+
+        public Product(string name, double price, int quantity)
+        {
+            this.name = name;
+            this.price = price;
+            this.quantity = quantity;
         }
 
         public override string ToString()
         {
-            return $"{this.Name} | Price: {this.Price} | Quantity: {this.Quantity}";
+            return $"{name} | Price: {price} | Quantity: {quantity}";
         }
-
     }
 }
