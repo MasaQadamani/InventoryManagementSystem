@@ -10,8 +10,15 @@ namespace InventoryManagementSystem
 
         public void AddProduct(Product product)
         {
-            products.Add(product);
-        }
+            Product p = FindProduct(product.Name);
+            if (p == null)
+            {
+                products.Add(product);
+                Console.WriteLine("Product Added");
+            }
+            else
+                Console.WriteLine("Product Already Exists!");
+            }
 
         public void ViewAllProducts()
         {

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|c:\\users\\masa\\source\\repos\\inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|c:\\users\\masa\\source\\repos\\inventorymanagementsystem\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|c:\\users\\masa\\source\\repos\\inventorymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C86624A9-C76C-DCE6-6119-FDD96170DA2B}|InventoryManagementSystem.csproj|c:\\users\\masa\\source\\repos\\inventorymanagementsystem\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Inventory.cs",
               "RelativeDocumentMoniker": "Inventory.cs",
-              "ToolTip": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Inventory.cs",
-              "RelativeToolTip": "Inventory.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwDEAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Inventory.cs*",
+              "RelativeToolTip": "Inventory.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T18:45:30.047Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "Product.cs",
               "ToolTip": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Product.cs",
               "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAUwCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T18:36:05.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Masa\\source\\repos\\InventoryManagementSystem\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T18:24:04.365Z",
               "EditorCaption": ""

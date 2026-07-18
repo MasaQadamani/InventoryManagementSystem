@@ -7,16 +7,28 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Current Inventory");
-        inventory.ViewAllProducts();
-        AddProduct();
-        EditProduct();
-        Console.WriteLine("\nInventory after edit");
-        inventory.ViewAllProducts();
-        DeleteProduct();
-        Console.WriteLine("\nInventory after deletion");
-        inventory.ViewAllProducts();
-        SearchProduct();
+
+        bool exit = false;
+        while (!exit)
+        {
+            PrintMenu();
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1": AddProduct(); break;
+                case "2": inventory.ViewAllProducts(); break;
+                case "3": EditProduct(); break;
+                case "4": DeleteProduct(); break;
+                case "5": SearchProduct(); break;
+                case "6": exit = true;
+                    Console.WriteLine("GOODBYE!");
+                    break;
+                default: Console.WriteLine("Try Again!"); break;
+
+            }
+        }
+        
 
     }
     static void AddProduct()
@@ -29,8 +41,8 @@ class Program
         int qty = int.Parse(Console.ReadLine());
 
         inventory.AddProduct(new Product(name, price, qty));
-        Console.WriteLine("Product added.");
-        inventory.ViewAllProducts();
+        
+        
     }
     static void EditProduct()
     {
@@ -85,6 +97,18 @@ class Program
         }
         Console.WriteLine(p.ToString());
     }
+    static void PrintMenu()
+    {
+        Console.WriteLine("\n--- Inventory Menu ---");
+        Console.WriteLine("1. Add product");
+        Console.WriteLine("2. View all products");
+        Console.WriteLine("3. Edit product");
+        Console.WriteLine("4. Delete product");
+        Console.WriteLine("5. Search product");
+        Console.WriteLine("6. Exit");
+        Console.Write("Choose an option: ");
+    }
+
         
 
 
