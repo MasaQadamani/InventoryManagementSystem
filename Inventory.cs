@@ -30,7 +30,8 @@ namespace InventoryManagementSystem
         }
         public Product FindProduct(string name)
         {
-            foreach (Product p in products) {
+            foreach (Product p in products)
+            {
                 if (p.Name.Equals(name, StringComparison.OrdinalIgnoreCase))
                 {
                     return p;
@@ -40,6 +41,14 @@ namespace InventoryManagementSystem
         }
 
 
+        public bool DeleteProduct(string name)
+        {
+            Product p = FindProduct(name);
+            if (p == null)
+                return false;
+            products.Remove(p);
+            return true;
 
+        }
     }
 }

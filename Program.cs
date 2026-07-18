@@ -13,6 +13,10 @@ class Program
         EditProduct();
         Console.WriteLine("\nInventory after edit");
         inventory.ViewAllProducts();
+        DeleteProduct();
+        Console.WriteLine("\nInventory after deletion");
+        inventory.ViewAllProducts();
+
     }
     static void AddProduct()
     {
@@ -56,7 +60,19 @@ class Program
         Console.WriteLine("Product updated.");
 
     }
+    static void DeleteProduct()
+    {
+        Console.Write("Product name to be deleted: ");
+        string name = Console.ReadLine() ;
+        
+        bool deleted = inventory.DeleteProduct(name);
+        if (deleted)
+            Console.WriteLine("DELETED!");
+        else
+            Console.WriteLine("No such Product!");
 
+    }
+        
 
 
 
