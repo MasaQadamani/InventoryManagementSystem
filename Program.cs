@@ -16,6 +16,7 @@ class Program
         DeleteProduct();
         Console.WriteLine("\nInventory after deletion");
         inventory.ViewAllProducts();
+        SearchProduct();
 
     }
     static void AddProduct()
@@ -71,6 +72,18 @@ class Program
         else
             Console.WriteLine("No such Product!");
 
+    }
+    static void SearchProduct()
+    {
+        Console.Write("Product name to search for: ");
+        string name = Console.ReadLine();
+        Product p = inventory.FindProduct(name);
+        if (p == null)
+        {
+            Console.WriteLine("No such product!");
+            return;
+        }
+        Console.WriteLine(p.ToString());
     }
         
 
