@@ -7,6 +7,8 @@ class Program
 
     static void Main(string[] args)
     {
+        Console.WriteLine("Current Inventory");
+        inventory.ViewAllProducts();
         AddProduct();
     }
     static void AddProduct()
@@ -20,5 +22,10 @@ class Program
 
         inventory.AddProduct(new Product(name, price, qty));
         Console.WriteLine("Product added.");
+        inventory.ViewAllProducts();
     }
+
+
+
+
 }
